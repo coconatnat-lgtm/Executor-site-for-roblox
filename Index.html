@@ -1,227 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Roblox Executors Hub</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: black;
-      color: white;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-    }
-
-    header {
-      background: linear-gradient(to right, gold, lightgreen);
-      color: black;
-      padding: 15px;
+      background: #111;
+      color: #fff;
       text-align: center;
-      font-weight: bold;
-      font-size: 0.95em;
-      animation: fadeIn 2s ease;
+      padding: 20px;
     }
-
-    .section {
-      padding: 15px;
-      border-bottom: 2px solid #444;
-      animation: slideIn 1.5s ease;
+    h1 {
+      color: #4ad;
     }
-
-    h2 {
-      color: gold;
-      font-size: 1.2em;
-    }
-
-    .delta-box, .codex-box {
-      max-width: 90%;
-      margin: auto;
-      font-size: 0.9em;
-    }
-
-    .delta-box {
-      background-color: #111;
-      padding: 12px;
-      border: 2px solid gold;
+    .executor {
+      background: #222;
+      margin: 20px auto;
+      padding: 20px;
       border-radius: 10px;
-      margin-bottom: 20px;
+      width: 90%;
+      max-width: 500px;
     }
-
-    .codex-box {
-      background: linear-gradient(to bottom right, white, crimson);
-      color: black;
-      padding: 12px;
-      border: 2px solid crimson;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    .scripts-box {
-      background-color: #111;
-      padding: 15px;
-      border: 2px solid cyan;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      max-width: 92%;
-      margin: auto;
-    }
-
-    .scripts-box h2 {
-      color: cyan;
-    }
-
-    .scripts-box ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-
-    .scripts-box li {
-      margin-bottom: 10px;
-      color: darkgoldenrod;
-    }
-
-    .scripts-box a {
-      color: maroon;
-      text-decoration: underline;
-    }
-
-    .generator-box {
-      background-color: #222;
-      padding: 15px;
-      border: 2px solid lightgreen;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      max-width: 92%;
-      margin: auto;
-    }
-
     .download-btn {
       display: inline-block;
-      padding: 10px 15px;
       margin-top: 10px;
-      border-radius: 8px;
-      font-size: 0.9em;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      transition: transform 0.3s, background-color 0.3s ease;
-    }
-
-    .download-btn:hover {
-      transform: scale(1.05);
-    }
-
-    .delta-btn {
-      background-color: gold;
-      color: black;
-      border: 2px solid white;
-    }
-
-    .delta-btn:hover {
-      background-color: darkorange;
-    }
-
-    .codex-btn {
-      background-color: crimson;
-      color: white;
-      border: 2px solid black;
-    }
-
-    .codex-btn:hover {
-      background-color: darkred;
-    }
-
-    button {
-      background-color: gold;
-      color: black;
-      border: none;
       padding: 10px 20px;
+      background: #4ad;
+      color: #000;
+      text-decoration: none;
       font-weight: bold;
       border-radius: 5px;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-
-    button:hover {
-      background-color: orange;
-      transform: scale(1.05);
-    }
-
-    footer {
-      background-color: #111;
-      color: gray;
-      text-align: center;
-      padding: 15px;
-      font-size: 0.85em;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    @keyframes slideIn {
-      from { transform: translateY(30px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
     }
   </style>
 </head>
 <body>
+  <h1>Roblox Executors Hub</h1>
+  <p>Welcome to the ultimate site for Delta & Codex executors!</p>
 
-  <header>
-    Delta Executor is often updated whenever Roblox updates.<br>
-    If there's no update then wait patiently or use other executors.<br><br>
-    <em>Partnered with LootLabs and MediaFire</em>
-  </header>
-
-  <div class="section delta-box">
-    <h2>🥷 Delta Executor</h2>
-    <p>Delta Executor is a powerful and easy-to-use Roblox script executor. Requires a key system for activation.</p>
-    <a href="https://www.mediafire.com/file_premium/dr39hiac2gs3u88/Delta-668.660-01.apk/file" target="_blank" class="download-btn delta-btn">⬇️ Download Delta APK</a>
+  <div class="executor">
+    <h2>Delta Executor</h2>
+    <p>Powerful and fast. Supports most scripts.</p>
+    <a href="https://www.mediafire.com/file_premium/dr39hiac2gs3u88/Delta-668.660-01.apk/file" class="download-btn" target="_blank">Download Delta</a>
   </div>
 
-  <div class="section codex-box">
+  <div class="executor">
     <h2>Codex Executor</h2>
-    <p>Codex Executor has officially released! This powerful Roblox script executor features a slick design inspired by Opera GX. It uses a key system for activation and comes with a stylish blend of <strong>angelic white</strong> and <strong>devilish red</strong>.</p>
-    <a href="https://www.mediafire.com/file/drrq3mk7c0x8sqk/Codex+v2.666.609.apk/file" target="_blank" class="download-btn codex-btn">⬇️ Download Codex APK</a>
+    <p>Stable and safe. Comes with a sleek UI.</p>
+    <a href="https://www.mediafire.com/file/drrq3mk7c0x8sqk/Codex_v2.666.609.apk/file" class="download-btn" target="_blank">Download Codex</a>
   </div>
 
-  <div class="section scripts-box">
-    <h2>Scripts Hub</h2>
-    <p>Visit <a href="https://rscripts.net" target="_blank">rscripts.net</a> for thousands of high-quality Roblox scripts. Here are some popular ones:</p>
-    <ul>
-      <li><a href="https://rscripts.net/script/Infinite-Yield_8564" target="_blank">Infinite Yield</a></li>
-      <li><a href="https://rscripts.net/script/GhostHub_9942" target="_blank">GhostHub</a></li>
-      <li><a href="https://rscripts.net/script/Nullfire_13833" target="_blank">Nullfire</a></li>
-      <li><a href="https://rscripts.net/script/Chat-Logger_11884" target="_blank">Chat Logger</a></li>
-    </ul>
-  </div>
-
-  <div class="section generator-box">
-    <h2>AI Username Generator</h2>
-    <button onclick="generateAIUsername()">Generate AI Username</button>
-    <div id="usernameOutput" style="margin-top: 10px; font-size: 1.2em; color: lightgreen;"></div>
-  </div>
-
-  <footer>
-    Roblox Executors Hub © 2025<br>
-    Made by Mauzain. All rights reserved.
-  </footer>
-
-  <script>
-    function generateAIUsername() {
-      const adjectives = ["Swift", "Sneaky", "Mega", "Epic", "Ghostly", "Crimson", "Shadow", "Ninja"];
-      const nouns = ["Blader", "Destroyer", "Phantom", "Builder", "Executor", "Dragon", "Codexer", "Hacker"];
-      const numbers = Math.floor(Math.random() * 9999);
-      const name = adjectives[Math.floor(Math.random() * adjectives.length)] +
-                   nouns[Math.floor(Math.random() * nouns.length)] +
-                   numbers;
-      document.getElementById("usernameOutput").textContent = name;
-    }
-  </script>
-
+  <p>Note: All executors require a key system.</p>
 </body>
 </html>
